@@ -38,7 +38,11 @@ alert("deu "+soma)
 function atv6(){
 let pessoa={ nome:prompt("nome"), idade: prompt("idade"), clt: prompt("CLT")}
 alert("Olá, meu nome é "+pessoa.nome +" tenho "+pessoa.idade +" anos e trabalho como "+pessoa.clt )
-
-
+}
+function atv7(){
+let pb=Number(prompt("indique o preso"))
+let desconto= Number(prompt("indique o desconto"))
+let total= pb-((pb/100)*desconto)
+alert("deu o total "+total)
 }
 
