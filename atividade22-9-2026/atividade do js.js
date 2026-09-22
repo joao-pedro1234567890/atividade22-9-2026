@@ -45,4 +45,26 @@ let desconto= Number(prompt("indique o desconto"))
 let total= pb-((pb/100)*desconto)
 alert("deu o total "+total)
 }
+function atv8(){
+    let autenticarouvalidar=Boolean("validar senha ou autenticar? false pra autenticar true pra validar")
+    if
+    
+    
+    
+    function validar(){
+let validarsenha=prompt("escreva a senha")
+if(validarsenha.length<5){alert("senha muito curta");validar()}
+return validar(validarsenha)}
+function autenticar(){
+let senha=prompt("dijite a senha novamente")
+if(senha===validar()){alert("senha correta")}
+else{alert("senha incorreta");autenticar}
+
+
+
+}
+
+
+
+}
 
